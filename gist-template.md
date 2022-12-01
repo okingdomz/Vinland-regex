@@ -18,12 +18,19 @@ Briefly summarize the regex you will be describing and what you will explain. In
 - [Flags](#flags)
 - [Character Escapes](#character-escapes)
 
-## Regex Components
-
 ## Regex Example Below :
+
 
 ## *Password Parameters*
 /^[a-z0-9_-&%$@!()]{8,16}$/
+
+ - *a-z in the parameters is the characters allowed in the password, the characters also have to be lowercase*
+
+- *0-9 is the numerical values allowed in the password*
+
+- *the special characters of __&%@!() are also allowed*
+
+- *the 8,16 displays the min,max of the parameters of the the amount of values in the password, so it would need at least 8 values, but no more than 16*
 
 **Qualified passwords**
 - "jonsnowww"
@@ -34,7 +41,7 @@ Briefly summarize the regex you will be describing and what you will explain. In
 - "Jonsnow"
 - "jon sno"
 - "jonsnow^istheking
-
+# Regex Components
 ### Anchors
 **components of a regex**
 - `$` is a common anchor that signifies a string that ends with the charcters that precede it. typically put at the end of a line.
