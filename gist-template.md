@@ -4,7 +4,7 @@
 
 ## Summary
 ---
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+The purpose of this tutorial is to explain the components of Regex, and how it can be used to search for particular data, or set parameters for data. In my example, I will display how it is used in password creation, which will replicate real-world password qualifications
 ---
 
 ## Table of Contents
